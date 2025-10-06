@@ -11,6 +11,7 @@ namespace Lab3_WinForms_Processor
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
+
             Processor firstProcessor = new Processor();
             fProcessor inputForm = new fProcessor(firstProcessor);
 
